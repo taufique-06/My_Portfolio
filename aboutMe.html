@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+  <title>About Me!</title>
+  <link rel="stylesheet" type="text/css" href="aboutMe.css">
+  <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+  <style>
+      @import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+  </style>
+</head>
+<body>
+
+<!-- NavBar starts here -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid mx-5"id="spacingBetweenTopSections">
+    <a class="navbar-brand" href="index.html">Home</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="aboutMe.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            About Me
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="#soft-skills">Soft Skills</a></li>
+            <li><a class="dropdown-item" href="#education">Education History</a></li>
+            <li><a class="dropdown-item" href="">Testimonials</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Projects
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Academic Projects</a></li>
+            <li><a class="dropdown-item" href="personal-projects.html">Personal Projects</a></li>
+          </ul>
+        </li>
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Achievements
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="certificates.html">Certificates</a></li>
+            <li><a class="dropdown-item" href="awards.html">Awards</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact Me</a>
+        </li>
+        <li class="nav-item" id="cv">
+          <a class="nav-link" href="CV.pdf">Download CV</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- NavBar ends here -->
+
+<!-- Title design starts here -->
+
+<h3 class="about">
+  <svg viewbox ="0 0 100 20">
+  <defs>
+    <linearGradient id="gradient">
+      <stop color = "#000"/>
+    </linearGradient>
+    <pattern id = "wave" x="0" y = "-0.1" width = "100%" height="100%" patternUnits  ="userSpaceOnUse">
+      <path id = "wavePath" d = "M-50 9 Q-30 7 -20 9 T0 9 T20 9 T40 9 T60 9 T80 9 T100 9 T120 9 V20 H-40z" mask = "url(#mask)" fill="white">
+        <animateTransform
+                attributeName = "transform"
+                begin="0s"
+                dur = "1.5s"
+                type = "translate"
+                from = "0.0"
+                to = "40.0"
+                repeatCount = "indefinite" />
+        </path>
+      </pattern>
+    </defs>
+    <text text-anchor="middle" x="50" y="15" font-size="10" fill="red" fill-opacity="0.6">ABOUT ME</text>
+
+    <text text-anchor="middle" x="50" y="15" font-size="10" fill="url(#wave)"fill-opacity="1">ABOUT ME</text>
+
+  </svg>
+</h3>
+
+<!-- Title design ends here -->
+
+<!-- Skill Section starts here -->
+
+<div class="skills">
+
+  <div id="myImage">
+    <div id="myImage__description"></div>
+  	<h4>Who Am I?</h4>
+    <!-- <p>Student Ambassador of University of Greenwich as well as Vice-president of Computer and technology society at UOG. Passionate, Enthusiastic and Hard-worker.</p>	 -->
+  </div>
+
+  <!-- Creating Skill Sections start here -->
+
+</div>
+
+<div class="flex-parent">
+
+  <div class="box">
+    <div class="box1 box90">
+        <div class="boxWBox">HTML5</div>
+    </div>
+       <span id="percentage">90%</span> 
+  </div>
+
+  <div class="box">
+    <div class="box1 box85">
+        <div class="boxWBox">CSS3</div>
+    </div>
+       <span id="percentage">85%</span> 
+  </div>
+
+  <div class="box">
+    <div class="box1 box70">
+        <div class="boxWBox">JavaScript</div>
+    </div>
+       <span id="percentage">70%</span> 
+  </div>
+
+  <div class="box">
+    <div class="box1 box55">
+        <div class="boxWBox">jQuery</div>
+    </div>
+       <span id="percentage">55%</span> 
+  </div>
+
+  <div class="box">
+    <div class="box1 box75">
+        <div class="boxWBox">BootStrap</div>
+    </div>
+       <span id="percentage">75%</span> 
+  </div>
+
+  <div class="box">
+    <div class="box1 box60">
+        <div class="boxWBox">WordPress</div>
+    </div>
+       <span id="percentage">60%</span> 
+  </div>
+
+  <div class="box">
+    <div class="box1 box60">
+        <div class="boxWBox">MySQL</div>
+    </div>
+       <span id="percentage">60%</span> 
+  </div>
+
+  <div class="box">
+    <div class="box1 box70">
+        <div class="boxWBox">PHP</div>
+    </div>
+       <span id="percentage">70%</span> 
+  </div>
+
+  <div class="box">
+    <div class="box1 box50">
+        <div class="boxWBox">SolidWorks</div>
+    </div>
+       <span id="percentage">50%</span> 
+  </div>
+
+  <div class="box">
+    <div class="box1 box70">
+        <div class="boxWBox">MATLAB</div>
+    </div>
+       <span id="percentage">70%</span> 
+  </div>
+
+  <div class="box">
+    <div class="box1 box40">
+        <div class="boxWBox">Photoshop</div>
+    </div>
+       <span id="percentage">40%</span> 
+  </div>
+
+</div>
+
+ <!-- Creating Skill Sections end here -->
+
+ <!-- Skill Section ends here -->
+
+ <!-- Creating Soft Skills section starts here -->
+
+<div id="soft-skills">
+  <h3 class="soft">
+    
+  <svg viewbox ="0 0 100 20">
+  <defs>
+    <linearGradient id="gradient">
+      <stop color = "#000"/>
+    </linearGradient>
+    <pattern id = "wave" x="0" y = "-3" width = "100%" height="100%" patternUnits  ="userSpaceOnUse">
+      <path id = "wavePath" d = "M-50 9 Q-30 7 -20 9 T0 9 T20 9 T40 9 T60 9 T80 9 T100 9 T120 9 V20 H-40z" mask = "url(#mask)" fill="white">
+        <animateTransform
+                attributeName = "transform"
+                begin="0s"
+                dur = "1.5s"
+                type = "translate"
+                from = "0.0"
+                to = "40.0"
+                repeatCount = "indefinite" />
+        </path>
+      </pattern>
+    </defs>
+    <text text-anchor="middle" x="50" y="15" font-size="10" fill="blue" fill-opacity="0.6">SOFT SKILLS</text>
+
+    <text text-anchor="middle" x="50" y="15" font-size="10" fill="url(#wave)"fill-opacity="1">SOFT SKILLS</text>
+
+  </svg>
+
+  </h3>
+  
+  <div class="circle">
+  <div class="ring">
+    
+    <a href="" title="Time Management"><img src="soft-skills/TM.png" class="menuItem timeManagement" alt="Time Management icon" width="80px" height="80px"></a>
+
+    <a href="" title="Communication"><img src="soft-skills/Communication.png" class="menuItem" alt="Communication icon"width="80px" height="80px"></a>
+
+    <a href="" title="Customer Service"><img src="soft-skills/CS.png" class="menuItem " alt="Customer Service icon"width="80px" height="80px"></a>
+
+    <a href="" title="Problem-Solving"> <img src="soft-skills/PS.png" class="menuItem"alt="Problem Solving icon"width="80px" height="80px"></a>
+
+    <a href="" title="Googling"><img src="soft-skills/googling.png" class="menuItem" alt="Googling skill icon" width="80px" height="80px"></a>
+
+    <a href="" title="Adaptibility"><img src="soft-skills/adaptable.png" class="menuItem adaptable" alt=" Adaptability icon" width="80px" height="80px"></a>
+
+    <a href="" title="Analyzing"><img src="soft-skills/analyzing-skill.png" class="menuItem analyzing" alt="Analyzing icon" width="80px" height="80px"></a>
+
+    <a href="" title="Leadership"><img src="soft-skills/leadership.png" class="menuItem" alt="Leadership icon" width="80px" height="80px"></a>
+
+    <a href="" title="Team Work"><img src="soft-skills/teamwork.png" class="menuItem" alt="Teamwork icon" width="80px" height="80px"></a>
+  
+  </div>
+  <a href="#" class="center">Click here to see!</a>
+</div>
+
+</div>
+
+
+<!-- Creating Soft Skills section ends here -->
+
+    <div id="clear"></div>
+
+<!-- Education Starts here -->
+
+  <div id="education">
+    <h3 id="education__title">
+
+      <svg viewbox ="0 0 100 20">
+  <defs>
+    <linearGradient id="gradient">
+      <stop color = "#000"/>
+    </linearGradient>
+    <pattern id = "wave" x="0" y = "-0.1" width = "100%" height="100%" patternUnits  ="userSpaceOnUse">
+      <path id = "wavePath" d = "M-50 9 Q-30 7 -20 9 T0 9 T20 9 T40 9 T60 9 T80 9 T100 9 T120 9 V20 H-40z" mask = "url(#mask)" fill="white">
+        <animateTransform
+                attributeName = "transform"
+                begin="0s"
+                dur = "1.5s"
+                type = "translate"
+                from = "0.0"
+                to = "40.0"
+                repeatCount = "indefinite" />
+        </path>
+      </pattern>
+    </defs>
+    <text text-anchor="middle" x="50" y="15" font-size="10" fill="cyan" fill-opacity="0.6">EDUCATION</text>
+
+    <text text-anchor="middle" x="50" y="15" font-size="10" fill="url(#wave)"fill-opacity="1">EDUCATION</text>
+
+  </svg>
+
+
+    </h3>
+  <div class="eduHistory">
+
+    <div class="uog eduHistory__lastOne">
+
+      <ol class="articles">
+
+  <li class="articles__article" style="--animation-order:1"><a class = "articles__link">
+    <p class="articles__content__uog__description">
+Relevant Modules: Engineering Mathematics, Fundamentals of Electrical, Electronic and Computer Engineering, Engineering Professional Skills, Engineering Principles , Design and Materials, Computer Architectures and Operating Systems, Digital and Embedded Electronic Systems, Mobile Applications for Engineering, Programming for Engineers, Sensors and Networks, Software Engineering, Engineering Professional Skills 2, Advanced Mathematics for Engineers.
+</p>
+    <div class="articles__content articles__content__uog articles__content--lhs">
+
+      <h2 class="articles__title">University of Greenwich</h2>
+      <div class="articles__subtitle" >
+      <h2>BEng Computer Engineering</h2>
+      <h5>2020 - Present</h5>
+      </div>
+      <div class="articles__footer">
+        <p>Hover Me</p>
+      </div>
+    </div>
+    <div class="articles__content articles__content--rhs articles__content__uog " aria-hidden="true">
+
+      <h2 class="articles__title">University of Greenwich</h2>
+      <div class="articles__subtitle" >
+      <h2>BEng Computer Engineering</h2>
+      <h5>2020 - Present</h5>
+      </div>
+      <div class="articles__footer">
+        <p>Hover Me</p>
+      </div>
+    </div>
+  </a></li>
+</ol>
+
+  </div>
+
+   <div class="ugic eduHistory__foundation">
+
+      <ol class="articles">
+  <li class="articles__article" style="--animation-order:1"><a class = "articles__link">
+     <p class="articles__content__ugic__description">
+Relevant Modules: Pure Mathematics, Further Mathematics, Chemistry, Digital Literacy, Mechanics, Properties of Matter and Waves, Electricity, Electronics and Fields, Project Study. 
+</p>
+    <div class="articles__content articles__content--lhs articles__content__ugic">
+      <h2 class="articles__title">University of Greenwich International College</h2>
+      <div class="articles__subtitle" >
+            <h2>Foundation Degree in Engineering</h2>
+      <h5>Jan 2020 - July 2020</h5>
+      </div>
+      <div class="articles__footer">
+        <p>Hover Me</p>
+      </div>
+    </div>
+    <div class="articles__content articles__content--rhs articles__content__ugic" aria-hidden="true">
+      <h2 class="articles__title">University of Greenwich International College</h2>
+      <div class="articles__subtitle" >
+      <h2>Foundation Degree in Engineering</h2>
+      <h5>Jan 2020 - July 2020</h5>
+      </div>
+      <div class="articles__footer">
+        <p>Hover Me</p>
+      </div>
+    </div>
+  </a></li>
+</ol>
+
+  </div>
+
+  <div class="mc eduHistory__aLevel">
+
+      <ol class="articles">
+  <li class="articles__article" style="--animation-order:1"><a class = "articles__link">
+     <p class="articles__content__ugic__description">
+Relevant Modules: Mathematics, Physics, Chemistry, Biology, ICT, and English
+</p>
+    <div class="articles__content articles__content--lhs articles__content__mc">
+      <h2 class="articles__title">M.C College</h2>
+      <div class="articles__subtitle" >
+      <h2>A Level</h2>
+      <h5>May 2016 - November 2018</h5>
+      </div>
+      <div class="articles__footer">
+        <p>Hover Me</p>
+      </div>
+    </div>
+    <div class="articles__content articles__content--rhs articles__content__mc" aria-hidden="true">
+      <h2 class="articles__title">M.C College</h2>
+      <div class="articles__subtitle" >
+      <h2>A Level</h2>
+      <h5>May 2016 - November 2018</h5>
+      </div>
+      <div class="articles__footer">
+        <p>Hover Me</p>
+      </div>
+    </div>
+  </div>
+  </a></li>
+</ol>
+
+  </div>
+    <!-- <div class="details uni-degree">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 16 16" id ="back-arrow">
+      <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+      </svg>
+      <div id="description">
+      <p><img src="uog.png" width="50px" height="50px">2020 - Present | BEng Computer Engineering | University of Greenwich | UK</p>
+      <p>Relevant Modules: Engineering Mathematics (92%), Fundamentals of Electrical, Electronic and Computer Engineering  (91%), Engineering Professional Skills (79%), Engineering Principles (86%), Design and Materials (63%), Computer Architectures and Operating Systems, Digital and Embedded Electronic Systems, Mobile Applications for Engineering, Programming for Engineers, Sensors and Networks, Software Engineering, Engineering Professional Skills 2, Advanced Mathematics for Engineers.</p>
+    </div>
+      <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16" id="arrow">
+      <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+      </svg>
+      
+
+    </div>
+
+    <div class="details foundation-degree">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 16 16" id ="back-arrow">
+      <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+      </svg><p><img src="uog.png" width="50px" height="50px">Jan 2020 - July 2020 |Computer Engineering Foundation Degree | University of Greenwich International College | UK</p>
+      <p>Relevant Modules: Pure Mathematics (90%), Further Mathematics (94%), Chemistry (93%), Digital Literacy (90%), Mechanics (99.99%), Properties of Matter and Waves (70%), Electricity, Electronics and Fields (55%), Project Study (68%).</p><svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16" id="arrow">
+      <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+      </svg>
+      
+
+    </div>
+
+  </div> -->
+<!-- Education ends here -->
+
+
+    <div id="clear"></div>
+
+<!-- Testimonial section starts here -->
+
+<div id="testimonial">
+  <h3 class="workExperience__title">
+    <svg viewbox ="0 0 100 20">
+      <defs>
+        <linearGradient id="gradient">
+          <stop color = "#000"/>
+        </linearGradient>
+        <pattern id = "wave" x="0" y = "-0.1" width = "100%" height="100%" patternUnits  ="userSpaceOnUse">
+          <path id = "wavePath" d = "M-50 9 Q-30 7 -20 9 T0 9 T20 9 T40 9 T60 9 T80 9 T100 9 T120 9 V20 H-40z" mask = "url(#mask)" fill="white">
+            <animateTransform
+                    attributeName = "transform"
+                    begin="0s"
+                    dur = "1.5s"
+                    type = "translate"
+                    from = "0.0"
+                    to = "40.0"
+                    repeatCount = "indefinite" />
+            </path>
+          </pattern>
+        </defs>
+        <text text-anchor="middle" x="50" y="15" font-size="10" fill="black" fill-opacity="0.6">TESTIMONIALS</text>
+
+        <text text-anchor="middle" x="50" y="15" font-size="10" fill="url(#wave)"fill-opacity="1">TESTIMONIALS</text>
+
+  </svg>
+  </h3>
+</div>
+
+<div class="testimonialContainer">
+    <input type="radio" name="slider" id="item-1" checked>
+    <input type="radio" name="slider" id="item-2">
+    <input type="radio" name="slider" id="item-3">
+    <input type="radio" name="slider" id="item-4">
+    <input type="radio" name="slider" id="item-5">
+
+    <div class="cards">
+      <label class="card" for="item-1" id="song-1">
+        <img src="testimonials/emma.jpeg">
+      </label>
+
+      <label class="card" for="item-2" id="song-2">
+        <img src="testimonials/oleg.jpg">
+      </label>
+
+      <label class="card" for="item-3" id="song-3">
+       <img src="testimonials/nelly.jpg">
+      </label>
+
+      <label class="card" for="item-4" id="song-4">
+       <img src="testimonials/areeb.jpg">
+      </label>
+
+      <label class="card" for="item-5" id="song-5">
+       <img src="testimonials/israel.jpg">
+      </label>
+      
+    </div>
+
+
+<!-- Testimonials section ends here -->
+
+<!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+<script type="text/javascript">
+
+
+
+
+
+
+var items = document.querySelectorAll('.menuItem');
+
+for(var i = 0, l = items.length; i < l; i++) {
+  items[i].style.left = (50 - 35*Math.cos(-0.5 * Math.PI - 2*(1/l)*i*Math.PI)).toFixed(4) + "%";
+  
+  items[i].style.top = (50 + 35*Math.sin(-0.5 * Math.PI - 2*(1/l)*i*Math.PI)).toFixed(4) + "%";
+}
+
+document.querySelector('.center').onclick = function(e) {
+   e.preventDefault(); 
+   var toggle = document.querySelector('.circle').classList.toggle('open');
+
+   if (toggle) {
+
+     document.querySelector('.center').textContent  ="Close";
+     document.querySelector('.center').style.left = "40px";
+
+   }else {
+    document.querySelector('.center').textContent  ="Click here to see!";
+    document.querySelector('.center').style.left = "-10px";
+   }
+
+}
+
+
+
+
+
+
+
+
+// window.onload = function () {
+
+// $("#arrow").click(function(){
+
+//   $(".foundation-degree").toggle();
+//   $("a-Level").toggle()
+//   $(".uni-degree").toggle();
+
+// });
+
+
+// $("#back-arrow").click(function(){
+
+//   $(".foundation-degree").toggle();
+//   $(".uni-degree").toggle();
+
+// });
+
+// }
+</script>
+
+</body>
+</html>
