@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="personal-projects.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+  <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+
+  <title>Personal Projects</title>
+
+  <style>
+	@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+</style>
+
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid mx-5"id="spacingBetweenTopSections">
+    <a class="navbar-brand" href="index.html">Home</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="aboutMe.html">About Me</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Projects
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Academic Projects</a></li>
+            <li><a class="dropdown-item" href="personal-projects.html">Personal Projects</a></li>
+          </ul>
+        </li>
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Achievements
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="certificates.html">Certificates</a></li>
+            <li><a class="dropdown-item" href="#">Awards</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact Me</a>
+        </li>
+        <!-- Creating Download Button Here -->
+
+          <div id="cv">
+            <img src="download.svg" width="20px">
+            <a href="CV.pdf">Download CV</a> 
+          </div>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Projects showing starts here -->
+
+<h2>Personal Projects</h2>
+<div class="buttons">
+  <button class="individual-button showAll">Show All</button>
+	<button class="individual-button html">HTML&CSS</button>
+	<button class="individual-button js">JavaScript</button>
+	<button class="individual-button jq">jQuery</button>
+	<button class="individual-button bt">Bootstrap</button>
+	<button class="individual-button roll-in-right wp">Wordpress</button>
+	<button class="individual-button roll-in-right php">PHP and MySQL</button>
+	<button class="individual-button roll-in-right mp">Mobile Apps</button>
+	<button class="individual-button roll-in-right p">Pyton</button>
+</div>
+
+<div class="projects">
+
+  <div class="rectangle jsProjects weatherApp">
+    <!-- <p><img src="Projects/weather-app.jpg" width="350px" height="210px"><p> -->
+    <h5 class="title">Weather App</h5>
+
+    <div class="description">
+      <p>This weather app was built with HTML, CSS, and Vanilla JavaScript. Furthermore, the weather data was obtained through Application Programming Interface (API).</p>
+      <a href="#"><button id="sourceCode">Source Code</button></a>
+
+    </div> 
+  </div>
+
+  <div class="rectangle jsProjects gtrw">
+   <!--  <p><img src="Projects/guessGame.jpg" width="350px" height="210px"><p> -->
+    <h5 class="title">Guess the Right Word</h5>
+
+    <div class="description">
+      <p>This project taught me how to plan ahead of time before coding and how to properly use the JavaScript Array.</p>
+      <a href="#"><button id="sourceCode">Source Code</button></a>
+
+    </div> 
+  </div>
+
+	<div class="rectangle  jsProjects simpleClock">
+   <!--  <p><img src="Projects/jsClock.jpg" width="350px" height="210px"></p> -->
+    <h5 class="title">A Simple Clock</h5>
+    
+    <div class="description slide-in-elliptic-top-fwd">
+      <p>Vanilla JavaScript was used to make a basic clock. The best method to learn how to retrieve the time, day, and use SetInterval/setTimeout in JavaScript.</p>
+      <a href="#"><button id="sourceCode">Source Code</button></a>
+
+    </div>
+  </div>
+	<div class="rectangle jsProjects modalproject" >
+   
+    <h5 class="title">Modal</h5>
+
+    <div class="description slide-in-elliptic-top-fwd">
+      <p>A simple business card was created by HTML and CSS. In this short project, CSS pseudo-classes was also used to build this one!</p>
+      <a href="#"><button id="sourceCode">Source Code</button></a>
+
+    </div> 
+  </div>
+	<div class="rectangle jsProjects stopwatch">
+    <h5 class="title">Stopwatch</h5>
+
+    <div class="description slide-in-elliptic-top-fwd">
+      <p>A simple business card was created by HTML and CSS. In this short project, CSS pseudo-classes was also used to build this one!</p>
+      <a href="#"><button id="sourceCode">Source Code</button></a>
+
+    </div> 
+  </div>
+
+  <div class="rectangle jsProjects animateName">
+    <h5 class="title">Animating name using JavaScript</h5>
+    
+    <div class="description slide-in-elliptic-top-fwd">
+      <p>A simple business card was created by HTML and CSS. In this short project, CSS pseudo-classes was also used to build this one!</p>
+      <a href="#"><button id="sourceCode">Source Code</button></a>
+    </div>
+  </div>
+
+  <div class="rectangle jsProjects calculator">
+   
+    <h5 class="title">Calculator</h5>
+    
+    <div class="description slide-in-elliptic-top-fwd">
+      <p>A simple business card was created by HTML and CSS. In this short project, CSS pseudo-classes was also used to build this one!</p>
+      <a href="#"><button id="sourceCode">Source Code</button></a>
+    </div> 
+  </div>
+
+  <div class="rectangle jsProjects tipCalculator">
+   
+    <h5 class="title">Tip Calculator</h5>
+    
+    <div class="description slide-in-elliptic-top-fwd">
+      <p>A simple business card was created by HTML and CSS. In this short project, CSS pseudo-classes was also used to build this one!</p>
+      <a href="#"><button id="sourceCode">Source Code</button></a>
+    </div> 
+  </div>
+
+  <div class="rectangle jsProjects reactionTest">
+   
+    <h5 class="title">Test your reaction</h5>
+    
+    <div class="description slide-in-elliptic-top-fwd">
+      <p>A simple business card was created by HTML and CSS. In this short project, CSS pseudo-classes was also used to build this one!</p>
+      <a href="#"><button id="sourceCode">Source Code</button></a>
+    </div> 
+  </div>
+
+  <div class="rectangle jsProjects eventListener">
+       <h5 class="title">Event Listener Project</h5>
+    
+    <div class="description slide-in-elliptic-top-fwd">
+      <p>A simple business card was created by HTML and CSS. In this short project, CSS pseudo-classes was also used to build this one!</p>
+      <a href="#"><button id="sourceCode">Source Code</button></a>
+    </div> 
+  </div>
+
+  <div class="rectangle jsProjects guessGameTwo">
+   
+    <h5 class="title">How many figures am I holding up?</h5>
+    
+    <div class="description slide-in-elliptic-top-fwd">
+      <p>A simple business card was created by HTML and CSS. In this short project, CSS pseudo-classes was also used to build this one!</p>
+      <a href="#"><button id="sourceCode">Source Code</button></a>
+    </div> 
+  </div>
+
+  <div class="rectangle apiProjects google">
+   
+    <h5 class="title">Using Google API Project</h5>
+    
+    <div class="description slide-in-elliptic-top-fwd">
+      <p>This project demostrate that taufique has the ability to fetch the data from Google API.</p>
+     <a href="#"><button id="sourceCode">Source Code</button></a>
+    </div> 
+  </div>
+
+  <div class="rectangle apiProjects postcodeFinder">
+   
+    <h5 class="title">Postcode Finder App</h5>
+    
+    <div class="description slide-in-elliptic-top-fwd">
+      <p>A simple business card was created by HTML and CSS. In this short project, CSS pseudo-classes was also used to build this one!</p>
+      <a href="#"><button id="sourceCode">Source Code</button></a>
+    </div> 
+  </div>
+
+  <div class="rectangle htmlProjects bbc">
+    <h5 class="title">BBC Website</h5>
+    
+    <div class="description slide-in-elliptic-top-fwd">
+      <p></p>
+      <a href="#"><button id="sourceCode">Source Code</button></a>
+    </div> 
+  </div>
+
+  <div class="rectangle btProjects appLanding">
+   
+    <h5 class="title">App Landing Page</h5>
+    
+    <div class="description slide-in-elliptic-top-fwd">
+      <p>A simple business card was created by HTML and CSS. In this short project, CSS pseudo-classes was also used to build this one!</p>
+      <a href="#"><button id="sourceCode">Source Code</button></a>
+    </div> 
+  </div>
+
+  <div class="rectangle jsProjects">
+   
+    <h5 class="title">How many figures am I holding up?</h5>
+    
+    <div class="description slide-in-elliptic-top-fwd">
+      <p>A simple business card was created by HTML and CSS. In this short project, CSS pseudo-classes was also used to build this one!</p>
+      <a href="#"><button id="sourceCode">Source Code</button></a>
+    </div> 
+  </div>
+
+</div>
+
+<!-- Projects showing ends here -->
+<!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+<script type="text/javascript">
+
+  
+  $(".showAll").click(function() {
+
+    $(".htmlProjects").show();
+    $(".jsProjects").show();
+    $(".jqProjects").show();
+    $(".btProjects").show();
+    $(".wpProjects").show();
+    $(".phpProjects").show();
+    $(".mpProjects").show();
+    $(".pProjects").show();` `
+
+  });
+
+    $(".js").click(function() {
+
+    $(".htmlProjects").hide();
+    $(".jsProjects").show();
+    $(".jqProjects").hide();
+    $(".btProjects").hide();
+    $(".wpProjects").hide();
+    $(".phpProjects").hide();
+    $(".mpProjects").hide();
+    $(".pProjects").hide();` `
+
+  });
+
+   $(".bt").click(function() {
+
+    $(".htmlProjects").hide();
+    $(".jsProjects").hide();
+    $(".jqProjects").hide();
+    $(".btProjects").show();
+    $(".wpProjects").hide();
+    $(".phpProjects").hide();
+    $(".mpProjects").hide();
+    $(".pProjects").hide();` `
+
+  });
+
+  $(".html").click(function() {
+
+    $(".htmlProjects").show();
+    $(".jsProjects").hide();
+    $(".jqProjects").hide();
+    $(".btProjects").hide();
+    $(".wpProjects").hide();
+    $(".phpProjects").hide();
+    $(".mpProjects").hide();
+    $(".pProjects").hide();` `
+
+  });
+
+
+
+
+</script>
+</body>
+</html>
